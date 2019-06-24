@@ -3,9 +3,9 @@ import CowList from './CowList.js';
 class App extends React.Component {
   constructor(props){
     super(props);
-    this.state = {
+    // this.state = {
 
-    };
+    // };
   }
 
   componentDidMount() {
@@ -13,10 +13,9 @@ class App extends React.Component {
   }
 
   render(){
-    return(
-      <div>
+    return (
         <CowList />
-      </div>
+
     );
   }
 }
